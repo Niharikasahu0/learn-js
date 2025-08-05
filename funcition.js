@@ -1,4 +1,4 @@
-// FUNCITION IN JS= functions are blocks of reusable code that perform a specific task
+// FUNCITION IN JS= functions are blocks of reusable code that perform a specific task.
 //  Basic Function Syntax
  function functionName(parameters) {
   // code to be executed
@@ -13,15 +13,14 @@ greet();
 function add(a, b) {
   return a + b;
 }
-let result = add(5, 3);  
+result = add(5, 3);  
 console.log(result);  
 
 // 
  function sayName(){
     console.log("my name is niharika");
  }
-
-//  sayName()
+ sayName()
 // ADD two numbers
  function addTwoNumbers(num1,num2){
     console.log(num1+num2);
@@ -62,6 +61,5 @@ console.log(returnSecondValue(myNewArray));
 function multiply(x, y) {
   return x * y;
 }
-
 let output = multiply(4, 3);  
 console.log(output);
