@@ -9,7 +9,7 @@ for (const greet of greeting) {
     
  
 }
-// MAPS
+//  basic MAPS
 // A Map is a built-in JavaScript object that stores key–value pairs.
 let myMap = new Map();
 myMap.set("name", "Mini");
@@ -46,3 +46,8 @@ coding.forEach( function (item){
     
 
 })
+
+const myNums = [1, 2, 3, 4, 5, 6, 7];
+const newNums = myNums.filter(nums => nums > 4);
+console.log(newNums);
+
