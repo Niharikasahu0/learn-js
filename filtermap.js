@@ -68,7 +68,9 @@ console.log(namesOnly);
 // Applying multiple methods one after another.
 const no = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const newnums = no
-  .map(nums => nums * 10)  // multiply each number by 10
-  .map(num => num + 1);    // add 1 to each number
-
+  .map(nums => nums * 10)  
+  .map(num => num + 1)
+  .filter(num)=num>=50);
 console.log(newnums);
+
+// REDUCE IN JS

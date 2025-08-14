@@ -170,7 +170,24 @@
 // console.log(str.charAt(4));
 
 // Q4: Write a program to reverse the string "hello" using a loop.
-let string="hello"
-for(let i=string.length-1;i>=0;i--){
-    console.log(string[i]);
+// let string="hello"
+// for(let i=string.length-1;i>=0;i--){
+//     console.log(string[i]);
+// }
+
+// function checkEvenOdd(a){
+//         if (a % 2 == 0) {
+//         console.log("Even");
+//     } else {
+//         console.log("Odd");
+//     }
+// }
+// checkEvenOdd(21)
+// checkEvenOdd(11)
+// checkEvenOdd(2)
+
+let str="hello"
+for (let i=str.length-1;i>=0;i--){
+    console.log(str[i]);
+    
 }
